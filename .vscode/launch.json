@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/ch2/ex3_ChessBoard.js",
+            "program": "${workspaceFolder}/ch3/ex1.js",
             "console": "integratedTerminal"
 
         }
