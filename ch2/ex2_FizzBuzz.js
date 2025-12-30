@@ -13,33 +13,6 @@
     (This is actually an interview question that has been claimed to weed out a significant percentage of programmer candidates. So if you solved it, your labor market value just went up.)
 */
 
-
-let testCases = [...Array(101).keys()];
-
-// Pure Function to determine logic
-// It is testable because it returns a value
-function FizzBuzz(number) {
-    if (number % 3 === 0 && number % 5 === 0) {
-        return 'FizzBuzz';
-    }
-    else if (number % 3 === 0) {
-        return 'Fizz';
-
-    } else if (number % 5 === 0) {
-        return 'Buzz';
-
-    } else {
-        return Number(number);
-    }
-}
-
-for (let index = 1; index < testCases.length; index++) {
-    const testNumber = testCases[index];
-    console.log(FizzBuzz(testNumber));
-}
-
-// Adapted for leetcode:
-console.log('Adapted FOR LEETCODE');
 const fizzBuzz = function(n) {
     let answer = [];
         for (let i = 1; i <= n; i++) {
@@ -58,4 +31,4 @@ const fizzBuzz = function(n) {
         }
     return answer;
 };
-console.log(fizzBuzz(5));
+console.log(fizzBuzz(15));
