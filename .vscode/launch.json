@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/ch3/ex1_Minimum.js",
+            "program": "${workspaceFolder}/ch3/ex2_Recursion.js",
             "console": "integratedTerminal"
 
         }
