@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/interviewPrep/app.js",
+            "program": "${workspaceFolder}/prep/map.js",
             "console": "integratedTerminal"
 
         }
